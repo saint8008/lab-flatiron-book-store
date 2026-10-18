@@ -46,7 +46,7 @@ const bookStore = {
 // Write your code here!
 const bookStoreTitle = document.getElementById('header');
 
-bookStoreTitle.innerText = bookStore.name;
+bookStoreTitle.textContent = bookStore.name;
 
 const bookList = document.getElementById('book-list');
 
